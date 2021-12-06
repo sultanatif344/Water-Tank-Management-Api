@@ -1,0 +1,6 @@
+{
+    "env":{
+        "MONGO_ATLAS_PW":"jogong+366",
+        "PORT":"3000"
+    }
+}
