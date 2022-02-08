@@ -1,6 +1,8 @@
 {
     "env":{
         "MONGO_ATLAS_PW":"jogong+366",
-        "PORT":"3000"
+        "PORT":"3000",
+        "MONGODB_URI": "mongodb+srv://sutlanatif344:",
+        "secret":"Secret"
     }
 }

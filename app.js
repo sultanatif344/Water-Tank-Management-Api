@@ -17,11 +17,6 @@ app.use((req, res, next)=>{
         return res.status(200).json({});
     }
 })
-mongoose.connect('mongodb+srv://sutlanatif344:'+environment.env.MONGO_ATLAS_PW+'@cluster0.xzqr6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority').then(()=>{
-    console.log('mongo db is connected')
-}).then(()=>{
-    console.log("connected!")
-}).catch((err)=>console.log(err));
 app.use('user',auth);
 
 module.exports = app;
